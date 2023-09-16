@@ -1,0 +1,111 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+main {
+  justify-content: center;
+  margin: 10px 30px;
+}
+
+main h1 span {
+  color: #fed11c;
+  font-weight: 620;
+}
+
+form {
+  display: flex;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+form input[type='text']{
+  border: 2px black solid;
+  outline: none;
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  padding: 5px;
+}
+
+form button{
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #ffd216;
+  font-weight: bold;
+}
+
+ul{
+  margin: 20px 0;
+}
+
+ul li span{
+  padding: 0px 5px;
+}
+
+.li1{
+  margin: 10px  5px 15px -50px;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 10px;
+  background: #ffd216;
+}
+
+.li2{
+  margin: 10px  -15px 15px -30px;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+
+.btn1{
+  margin-left: auto;
+  padding: 8px;
+  border-left: 2px black solid;
+  border-radius: 7px;
+  background: transparent;
+  font-weight: bold;
+}
+
+.btn2{
+  margin-left: auto;
+  padding: 8px;
+  border-left: 2px black solid;
+  border-radius: 7px;
+  background: transparent;
+  font-weight: bold;
+}
+
+.nav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background: white;
+  padding: 15px 0px;
+}
+
+.nav button{
+  margin-left: auto;
+  padding: 10px;
+  border: 2px black solid;
+  background-color: #ffd216;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.nav button:hover{
+  background-color: #ffd216;
+
+}
