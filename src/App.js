@@ -13,15 +13,9 @@ const onSubmit = (event) => {
   const form = event.target
   const input = form.nama
 
-  console.log(input.value)
-
   const dataList = [data, input.value].flat();
   setData(dataList)
-
   
-  console.log("data list", dataList)
-  console.log("data", data)
-
   form.reset()
 }
 
